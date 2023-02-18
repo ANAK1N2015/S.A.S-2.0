@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <title>S.A.S Code Z</title>
+  <link rel="icon" type="image/x-icon" href="/Concept art/S.A.S_Code_Z.png">
+  <!-- Lib -->
+  <script src="./lib/p5.min.js"></script>
+  <script src="./lib/p5.dom.min.js"></script>
+  <script src="./lib/p5.sound.min.js"></script>
+  <script src="./lib/p5.play.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+  <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyCgNBLwjd8pInRRhhSHvDw2C-yu5Ds_L9Q",
+      authDomain: "pelota-sincronizada-f6f21.firebaseapp.com",
+      databaseURL: "https://pelota-sincronizada-f6f21-default-rtdb.firebaseio.com",
+      projectId: "pelota-sincronizada-f6f21",
+      storageBucket: "pelota-sincronizada-f6f21.appspot.com",
+      messagingSenderId: "957927732844",
+      appId: "1:957927732844:web:546b294e0e34db1ce48a49"
+    };
+    // Inicia Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+</head>
+
+<body>
+  <script src="./js/game.js"></script>
+  <script src="./js/form.js"></script>
+  <script src="./js/player.js"></script>
+  <script src="./sketch.js"></script>
+</body>
+
+</html>

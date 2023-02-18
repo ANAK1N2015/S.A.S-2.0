@@ -1,0 +1,30 @@
+.buttonPlay{
+background-color: forestgreen rgb(0, 0, 0);
+border-radius: 10px;
+border-color: springgreen rgb(255, 255, 255);
+width: 180px;
+height: 30px;
+font-weight: bold;
+border-radius: 5px;
+margin-bottom: 100px;
+display: inline-block;
+font-size: 16px;
+font-family: fantasy;
+margin: 4px 2px;
+cursor: crosshair;
+
+}
+
+.efectos{
+width: 200px;
+height: 30px;
+border: 3px rgb(0, 255, 0);
+border-radius: 5px;
+padding: 5px;
+background-color: transparent;
+font-size: 20px;
+outline: none;
+color: gray;
+font-family: fantasy;
+text-align: center;
+}
